@@ -5,6 +5,7 @@ import plotly.express as px
 from plotly.subplots import make_subplots
 import plotly.graph_objects as go
 import matplotlib.pyplot as plt
+import streamlit.components.v1 as components
 import shap
 shap.initjs()
 import plotly.graph_objects as go
