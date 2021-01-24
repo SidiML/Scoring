@@ -7,12 +7,9 @@ import plotly.graph_objects as go
 import matplotlib.pyplot as plt
 import shap
 shap.initjs()
-import lightgbm as lgb
-from sklearn.model_selection import train_test_split
 import plotly.graph_objects as go
 from plotly import tools
 import plotly.offline as py
-import streamlit.components.v1 as components
 from io import BytesIO
 import requests
 import os,joblib,warnings
